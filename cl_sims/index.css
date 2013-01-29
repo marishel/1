@@ -1,0 +1,33 @@
+/* ::::: http://pomogaemvse.ru/sims4/css/styles.css ::::: */
+
+body { background: none repeat scroll 0% 0% rgb(146, 227, 73); font-size: 17px; font-family: Arial,Tahoma; color: black; margin: 0px; padding: 0px; }
+.main { width: 100%; text-align: center; min-height: 900px; background: url('background.jpg') no-repeat scroll center top transparent; }
+.content_select { width: 970px; min-height: 900px; background: url('content_others.jpg') repeat scroll 0% 0% transparent; margin: 0px 0px 0px -485px; position: absolute; left: 50%; }
+label:hover { cursor: pointer; }
+a { text-decoration: underline; color: black; }
+a:hover { text-decoration: none; color: red; }
+#now { position: absolute; margin-left: 888px; margin-top: 155px; width: 43px; text-align: center; color: black; font-weight: bold; font-size: 12px; font-family: Arial; }
+#now2 { position: absolute; margin-left: 887px; margin-top: 154px; width: 43px; text-align: center; color: white; font-weight: bold; font-size: 12px; font-family: Arial; }
+#nick_input { width: 218px; height: 24px; text-align: center; font-size: 18px; border: 1px solid rgb(52, 53, 66); }
+#ramka1button, #ramka1button2, #ramka1button3 { position: absolute; margin-left: 140px; margin-top: 23px; width: 168px; height: 51px; background: url('ramka1button.png') repeat scroll 0% 0% transparent; display: none; }
+#ramka1button:hover, #ramka1button2:hover, #ramka1button3:hover { background-position: 0px 51px; }
+#ramka1button2 { display: block; }
+#etap2, #etap3 { display: none; }
+#pol { display: inline-block; margin-left: 22px; margin-right: 22px; font-size: 15px; margin-top: 15px; }
+#pol1, #pol2 { cursor: pointer; margin-top: 10px; }
+#nick_input { margin-top: 8px; width: 218px; height: 26px; border: 1px solid rgb(127, 157, 185); text-align: center; font-size: 18px; }
+#vozrast_input { margin-top: 8px; width: 108px; height: 26px; border: 1px solid rgb(127, 157, 185); text-align: center; font-size: 18px; }
+#ramka1up { width: 449px; height: 44px; background: url('ramka1up.png') no-repeat scroll center top transparent; margin: 228px 0px 0px 264px; }
+#ramka1fon { width: 449px; background: url('ramka1fon.png') repeat-y scroll center top transparent; margin: 0px 0px 0px 264px; }
+#ramka1down { width: 449px; height: 89px; background: url('ramka1down.png') no-repeat scroll center top transparent; margin: 0px 0px 0px 264px; }
+#ramka1zagolovok { color: rgb(28, 116, 190); font-family: arial; font-size: 23px; font-weight: bold; }
+#footer { clear: both; padding: 0px; margin: 0px auto 20px; width: 90%; text-align: left; overflow: hidden; }
+#footer .copyright { text-align: center; width: 100%; display: block; font-size: 13px; font-family: Tahoma; color: gray; }
+#footer ul { clear: both; margin: 80px 0px 0px; padding: 0px; height: 30px; float: right; text-align: right; overflow: hidden; }
+#footer ul li { margin: 0px 0px 0px 20px; padding: 0px; float: left; list-style-type: none; }
+#footer ul li a { color: rgb(17, 17, 17); text-decoration: underline; font-family: Tahoma; font-size: 12px; }
+#footer p { clear: both; margin: 20px 0px; padding: 0px; color: rgb(17, 17, 17); font-size: 11px; line-height: 12px; font-family: Tahoma; }
+#footer .rid { margin: 3000px 0px 0px; }
+#footer .rid ul li a { color: rgb(122, 219, 32); }
+#footer .rid p { color: rgb(122, 219, 32); }
+input[type="text"] { margin: 5px 0px; width: 218px; height: 26px; border: 1px solid rgb(52, 53, 66); text-align: center; font-size: 18px; }
